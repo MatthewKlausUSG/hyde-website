@@ -1,0 +1,95 @@
+:root {
+    --minorFontSize: 22px;
+    --majorFontSize: 32px;
+    --headingFontSize: 40px;
+}
+
+.home-page{
+    font-family: Poppins;
+}
+
+.refund-panel {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 5%;
+}
+.refund-left {
+    max-width: 571px;
+}
+.refund-left h1 {
+    font-size: 50px;
+    font-weight:bold;
+    margin: 0;
+}
+.refund-left h2 {
+    font-size: 50px;
+    font-weight:bold;
+    margin: 0;
+    color: var(--themeColor1);
+}
+.check-values {
+    margin-top: 10px;
+}
+.check-values h3 {
+    display: inline;
+    font-size: 20px;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.check-values img {
+    margin-right: 5px;
+}
+
+.refund-left p {
+    font-size: var(--majorFontSize);
+}
+
+.refund-right{
+
+
+}
+
+.customer-review-panel{
+
+}
+
+.choose-path-panel {
+
+}
+
+.choose-path-left {
+    
+}
+
+.choose-path-right {
+    
+}
+
+.works-panel {
+
+}
+
+.works-left {
+    
+}
+
+.works-right {
+    
+}
+
+.featured-panel {
+
+}
+
+.featured-left {
+    
+}
+
+.featured-right {
+    
+}
+
+.deserve-panel{
+    
+}

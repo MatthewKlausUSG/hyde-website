@@ -1,0 +1,51 @@
+:root {
+    --headerFontSize: 20px;
+  }
+
+.header {
+    font-family: Poppins;
+    font-size: var(--headerFontSize);
+    line-height: 30px;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    width: 191px;
+    height: 57px; 
+    margin-right: 10%;
+}
+
+.header a{
+    font-style: regular;
+    font-size: var(--headerFontSize);
+    color: #000;
+    text-decoration: none;
+    border-bottom: medium solid rgba(0,0,0,0);
+    margin: 0% 1%;
+
+}
+
+.header a:hover{
+    font-size: var(--headerFontSize);
+    border-bottom: medium solid var(--themeColor1);
+}
+
+.header button {
+    font-style: regular;
+    font-size: var(--headerFontSize);
+    border: 2px solid var(--themeColor1);
+    border-radius: 20px;
+    width: 216px;
+    height: 44px;
+    color: var(--themeColor1);
+    background-color: rgba(0,0,0,0);
+    margin: 0%;
+    float: right;
+}
+
+.header button:hover {
+    color: white;
+    background-color: var(--themeColor1);   
+}
